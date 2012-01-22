@@ -6,4 +6,5 @@ target
 *.iws
 logs
 tmp
+*~
 
