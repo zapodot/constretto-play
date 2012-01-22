@@ -7,4 +7,7 @@ target
 logs
 tmp
 *~
+lib
+modules
+
 
