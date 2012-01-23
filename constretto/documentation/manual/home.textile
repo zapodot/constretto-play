@@ -1,14 +1,17 @@
-h1. {module name}
+h1. Constretto Play Module
 
-p(note). Write your module documentation in this file, possibly linking to other Textile files, and delete these notes when you are finished.
+p(note). This module is made to integrate the Constretto configuration[http://constretto.org] framework.
 
-p(note). Start with a clear statement of what the module is and what it is for. Link to any third-party libraries that the module is based on.
+p(note). If you don't know Constretto it is made by som clever guys in Norway to make it easy to inject environment-aware configuration
+in your Java objects.
 
-p(note). Briefly describe why you might want to use this module in a Play application.
+p(note). The configuration mechanism in Play does offer a similar feature in that you can differ between different runtime configurations.
+However, it does not let you inject configuration by using annotations. This module will let you use the normal --% or 'play id'
+ mechanism to choose runtime configuration for Constretto.
 
 h2. Sample application
 
-p(note). Your module should contain a sample app in the @sample@ directory that demonstrates the module. Describe how to run the demo here.
+p(note). Included in the git repository at GitHub there is a sample application for you to explore.
 
 h2. Getting started
 
