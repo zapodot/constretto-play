@@ -9,26 +9,15 @@ p(note). The configuration mechanism in Play does offer a similar feature in tha
 However, it does not let you inject configuration by using annotations. This module will let you use the normal --% or 'play id'
  mechanism to choose runtime configuration for Constretto.
 
+p(note). This module is developed for and tested with Play 1.2.4. I will look in to porting in to Play 2 when the API has been frozen.
+
 h2. Sample application
 
 p(note). Included in the git repository at GitHub there is a sample application for you to explore.
 
 h2. Getting started
 
-p(note). Describe any installation that is required, beyond adding and resolving the module dependency.
+ # Add configuration properties to the application.conf
+ # Annotate static fields in your controller with the standard Constretto annotation @Configuration
 
-h2. Configuration
 
-p(note). List any configuration options that the module uses, with an @h3.@ heading for each one.
-
-h2. Usage
-
-p(note). Explain how to use the module, and describe any routes, controllers, models or views that the module provides.
-
-h2. Tags
-
-p(note). List any tags the module provides, with an @h3.@ heading for each one. Include the tags’ arguments.
-
-h2. Commands
-
-p(note). List any commands the module provides, with an @h3.@ heading for each one. Include the commands’ options.
