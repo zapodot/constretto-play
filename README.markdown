@@ -27,6 +27,7 @@ If you provide a value for the 'defaultValue' property like in the second proper
 
 When you change values for the properties in application.conf and hit reload the Constretto Play modul will automatically re-inject values in to the annotated fields in all your controllers.
 
+
 Change history
 --------------------
  * v.01 (built 2012-01-25): basic integration with Play controllers done
