@@ -1,4 +1,4 @@
-self: play -> constretto 0.1.20120123
+self: play -> constretto 0.1
 
 require:
     - play
