@@ -2,6 +2,7 @@ package play.modules.constretto;
 
 import org.constretto.ConstrettoBuilder;
 import org.constretto.ConstrettoConfiguration;
+import org.constretto.internal.store.SystemPropertiesStore;
 import play.modules.constretto.store.PlayConfigurationStore;
 
 /**
@@ -20,6 +21,7 @@ public class Constretto {
 
     public static Constretto reconfigure() {
         ConstrettoBuilder constrettoBuilder = new ConstrettoBuilder(new PlayIdConfigurationContextResolver());
+        constrettoBuilder.addConfigurationStore(new SystemPropertiesStore());
         constrettoBuilder.addConfigurationStore(new PlayConfigurationStore());
         return new Constretto(constrettoBuilder.getConfiguration());
 

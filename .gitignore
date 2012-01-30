@@ -8,7 +8,6 @@ logs
 tmp
 *~
 lib
-modules
 dist
 test-result
 
