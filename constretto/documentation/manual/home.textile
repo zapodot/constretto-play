@@ -1,23 +1,25 @@
 h1. Constretto Play Module
 
-p(note). This module is made to integrate the Constretto configuration[http://constretto.org] framework.
+p. This module is made to integrate the Constretto configuration[http://constretto.org] framework.
 
-p(note). If you don't know Constretto it is made by som clever guys in Norway to make it easy to inject environment-aware configuration
+p. If you don't know Constretto it is made by som clever guys in Norway to make it easy to inject environment-aware configuration
 in your Java objects.
 
-p(note). The configuration mechanism in Play does offer a similar feature in that you can differ between different runtime configurations.
+p. The configuration mechanism in Play does offer a similar feature in that you can differ between different runtime configurations.
 However, it does not let you inject configuration by using annotations. This module will let you use the normal --% or 'play id'
  mechanism to choose runtime configuration for Constretto.
 
-p(note). This module is developed for and tested with Play 1.2.4. I will look in to porting in to Play 2 when the API has been frozen.
+p. This module is developed for and tested with Play 1.2.4. I will look in to porting in to Play 2 when the API has been frozen.
 
 h2. Sample application
 
-p(note). Included in the git repository at GitHub there is a sample application for you to explore.
+p. Included in the git repository at GitHub there is a sample application for you to explore.
 
 h2. Getting started
 
- # Add configuration properties to the application.conf
- # Annotate static fields in your controller with the standard Constretto annotation @Configuration
+* Add configuration properties to the application.conf
+* Annotate static fields in your controller with the standard Constretto annotation @Configuration
+* For more information consult the "project Wiki":https://github.com/zapodot/constretto-play/wiki at GitHub
+
 
 
