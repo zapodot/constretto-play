@@ -1,5 +1,6 @@
 Constretto Play Module
 ===================
+**This project is not actively maintained. Feel free to fork this repo and continue this effort if you actually need it**
 
  * Integrates the [Constretto framework](http://constretto.org) with Play
  * Adds support for using Play's ID mechanism to specify environment. 
